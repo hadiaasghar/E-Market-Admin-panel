@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /* Custom Scrollbar Styling */
+  .scrollbar-custom::-webkit-scrollbar {
+      height: 5px;
+      width: 10px;
+     
+    }
+    
+    .scrollbar-custom::-webkit-scrollbar-track {
+      background: #f1f1f1;
+     
+    }
+    
+    .scrollbar-custom::-webkit-scrollbar-thumb {
+      background: #267FFD;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+  
+    
